@@ -1,0 +1,3 @@
+NAME                                READY   STATUS    RESTARTS   AGE
+my-wordpress-7d8f9bc4b6-abc12       1/1     Running   0          5m
+my-wordpress-mariadb-0              1/1     Running   0          5m

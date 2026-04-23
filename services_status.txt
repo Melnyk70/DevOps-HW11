@@ -1,2 +1,4 @@
-NAME         TYPE        CLUSTER-IP   EXTERNAL-IP   PORT(S)   AGE
-kubernetes   ClusterIP   10.96.0.1    <none>        443/TCP   113s
+NAME                   TYPE           CLUSTER-IP      EXTERNAL-IP   PORT(S)                      AGE
+kubernetes             ClusterIP      10.96.0.1       <none>        443/TCP                      15m
+my-wordpress           LoadBalancer   10.104.22.154   <pending>     80:31234/TCP,443:32145/TCP   5m
+my-wordpress-mariadb   ClusterIP      10.101.45.12    <none>        3306/TCP                     5m
